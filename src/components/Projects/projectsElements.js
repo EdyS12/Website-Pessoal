@@ -6,8 +6,6 @@ export const Container = styled.div`
   background: #fff;
   height: 100vh;
   align-items: center;
-  /* justify-content: center; */
-  border: green 2px solid;
 `;
 
 export const Box = styled.div`
@@ -27,6 +25,11 @@ export const Box = styled.div`
     flex-direction: column;
     row-gap: 30px;
   }
+
+  @media screen and (max-width: 321px) {
+    margin-top: 100px;
+    row-gap: 20px;
+  }
 `;
 
 export const Title = styled.h1`
@@ -36,13 +39,17 @@ export const Title = styled.h1`
   font-weight: 900;
   font-size: 64px;
   color: #b08968;
-  /* border: green 2px solid; */
   z-index: 1;
 
   @media screen and (max-width: 560px) {
     padding: 80px 0 0 0;
     font-weight: 800;
     font-size: 48px;
+  }
+
+  @media screen and (max-width: 321px) {
+    padding: 60px 0 0 0;
+    font-size: 30px;
   }
 `;
 
@@ -52,7 +59,6 @@ export const Window = styled.div`
   align-items: center;
   justify-content: center;
   height: fit-content;
-  /* border: red 2px solid; */
   text-align: center;
 
   h2 {
@@ -79,14 +85,12 @@ export const Window = styled.div`
       font-weight: 850;
       font-size: 40px;
       color: #b08968;
-      /* border: red 2px solid; */
     }
 
     @media screen and (max-width: 760px) {
       h2 {
         font-weight: 775;
         font-size: 30px;
-        /* border: red 2px solid; */
       }
     }
 
@@ -94,8 +98,18 @@ export const Window = styled.div`
       h2 {
         font-weight: 700;
         font-size: 20px;
-        /* border: red 2px solid; */
       }
     }
+
+    @media screen and (max-width: 321px) {
+      h2 {
+        font-weight: 700;
+        font-size: 16px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 321px) {
+    width: 30%;
   }
 `;

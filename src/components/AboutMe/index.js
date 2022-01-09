@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Box, TextContainer } from "./aboutElements";
+import { Container, Box, TextContainer, Titulo, Texto } from "./aboutElements";
 
 const AboutMe = () => {
   return (
@@ -7,8 +7,8 @@ const AboutMe = () => {
       <Container id="about">
         <Box />
         <TextContainer>
-          <h1>ABOUT ME</h1>
-          <p>
+          <Titulo>ABOUT ME</Titulo>
+          <Texto>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Augue ut
             eget augue fringilla enim nisl, mauris, convallis. Mollis
             ullamcorper id tristique tortor id pharetra. Ut risus lacus
@@ -22,7 +22,7 @@ const AboutMe = () => {
             Amet, tincidunt quis quam pharetra, venenatis dictum viverra cras
             tortor. Morbi augue tempor bibendum tincidunt eleifend tortor. Orci
             facilisis elit quis nunc sagittis et ut.
-          </p>
+          </Texto>
         </TextContainer>
       </Container>
     </>

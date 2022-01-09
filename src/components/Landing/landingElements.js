@@ -16,8 +16,8 @@ export const Content = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  align-content: center;
   justify-content: center;
-  /* border: red 2px solid; */
 
   p {
     display: none;
@@ -36,10 +36,16 @@ export const Content = styled.div`
       margin-top: 20px;
     }
   }
+
+  @media screen and (max-width: 500px) {
+    width: 90%;
+  }
 `;
 
 export const ImageContainer = styled.div`
   display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   transition-property: transform;
   transition-duration: 1s;
@@ -58,6 +64,14 @@ export const ImageContainer = styled.div`
     to {
       transform: rotate(360deg);
     }
+  }
+
+  img {
+    width: 80%;
+  }
+
+  @media screen and (max-width: 500px) {
+    padding-left: 40px;
   }
 `;
 

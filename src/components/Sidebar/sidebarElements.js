@@ -35,6 +35,10 @@ export const Icon = styled.div`
 export const SidebarWrapper = styled.div`
   padding: 280px 0 0 50px;
   color: #fff;
+
+  @media screen and (max-width: 321px) {
+    padding: 280px 0 0 20px;
+  }
 `;
 
 export const SidebarMenu = styled.ul`
@@ -67,9 +71,6 @@ export const SidebarMenu = styled.ul`
     width: 100%;
     transform-origin: bottom right;
   }
-
-  @media screen and (max-width: 480px) {
-  }
 `;
 
 export const SidebarLink = styled(LinkS)`
@@ -88,6 +89,10 @@ export const SidebarLink = styled(LinkS)`
     font-size: 82px;
     font-weight: 500;
     transition: 0.2s ease-in-out;
+  }
+
+  @media screen and (max-width: 321px) {
+    font-size: 54px;
   }
 `;
 

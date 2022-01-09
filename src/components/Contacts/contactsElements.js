@@ -6,8 +6,6 @@ export const Container = styled.div`
   background: #fff;
   height: 100vh;
   align-items: center;
-  /* justify-content: center; */
-  border: blue 2px solid;
 `;
 
 export const Box = styled.div`
@@ -19,6 +17,10 @@ export const Box = styled.div`
   margin-top: 160px;
   height: 500px;
   width: 90%;
+
+  @media screen and (max-width: 321px) {
+    margin-top: 100px;
+  }
 `;
 
 export const Title = styled.h1`
@@ -36,6 +38,11 @@ export const Title = styled.h1`
 
     font-weight: 800;
     font-size: 48px;
+  }
+
+  @media screen and (max-width: 321px) {
+    padding: 60px 0 0 10px;
+    font-size: 30px;
   }
 `;
 
@@ -57,6 +64,10 @@ export const ImageContainer = styled.div`
     align-content: center;
     justify-content: center;
     padding-left: 150px;
+  }
+
+  @media screen and (max-width: 321px) {
+    padding-left: 100px;
   }
 `;
 
