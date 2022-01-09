@@ -1,0 +1,18 @@
+<svg width="301" height="376" viewBox="0 0 301 376" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_18_191" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="-1" width="299" height="375">
+<line x1="7.90678" y1="356.161" x2="287.161" y2="7.09322" stroke="#C6A88F" stroke-width="14" stroke-linecap="round"/>
+<line x1="7.8566" y1="236.167" x2="189.167" y2="7.14365" stroke="#C6A88F" stroke-width="14" stroke-linecap="round"/>
+<line x1="7.85806" y1="169.167" x2="136.167" y2="7.14207" stroke="#C6A88F" stroke-width="14" stroke-linecap="round"/>
+<line x1="7.80878" y1="107.173" x2="86.1724" y2="7.19133" stroke="#C6A88F" stroke-width="14" stroke-linecap="round"/>
+<line x1="8.03876" y1="41.1474" x2="36.1473" y2="6.96136" stroke="#C6A88F" stroke-width="14" stroke-linecap="round"/>
+<line x1="49.8686" y1="366.166" x2="291.165" y2="62.1317" stroke="#C6A88F" stroke-width="14" stroke-linecap="round"/>
+<line x1="99.9648" y1="366.155" x2="291.155" y2="130.035" stroke="#C6A88F" stroke-width="14" stroke-linecap="round"/>
+<line x1="149.92" y1="366.16" x2="291.16" y2="190.081" stroke="#C6A88F" stroke-width="14" stroke-linecap="round"/>
+<line x1="199.984" y1="366.153" x2="291.153" y2="254.016" stroke="#C6A88F" stroke-width="14" stroke-linecap="round"/>
+<line x1="250.024" y1="366.149" x2="291.149" y2="315.977" stroke="#C6A88F" stroke-width="14" stroke-linecap="round"/>
+<line x1="7.81477" y1="298.172" x2="236.172" y2="7.1855" stroke="#C6A88F" stroke-width="14" stroke-linecap="round"/>
+</mask>
+<g mask="url(#mask0_18_191)">
+<rect x="-2" y="0.000366211" width="300" height="376" fill="#C6A88F"/>
+</g>
+</svg>
