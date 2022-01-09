@@ -69,6 +69,7 @@ export const Texto = styled.p`
   font-family: "Roboto";
   font-weight: normal;
   font-size: 22px;
+  line-height: 28px;
   color: #000;
 
   @media screen and (max-width: 1025px) {
@@ -80,18 +81,21 @@ export const Texto = styled.p`
     width: 80%;
     padding-top: 40px;
     font-size: 18px;
+    line-height: 19px;
   }
 
   @media screen and (max-width: 500px) {
-    width: 80%;
+    width: 90%;
     padding-top: 20px;
     font-size: 16px;
+    line-height: 20px;
   }
 
   @media screen and (max-width: 321px) {
     width: 90%;
     padding-top: 0;
     font-size: 14px;
+    line-height: 15px;
   }
 `;
 
